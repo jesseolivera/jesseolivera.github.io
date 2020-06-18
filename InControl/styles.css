@@ -1,0 +1,107 @@
+
+/* == Structure == */
+
+
+body {
+    background-color: #ffeac2;
+    text-align: center;
+    background-image: url(moodboard/background.jpg);
+    background-repeat: repeat;
+    background-blend-mode: soft-light;
+    
+}
+
+
+main{
+    margin: auto;
+    width: 800px;
+    height: 100px;
+}
+
+
+
+.image{
+    margin: auto;
+    padding-bottom: none;
+}
+
+header{
+    background-color: cornflowerblue;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.insideheader{  
+    height: 20px;
+}
+
+
+
+.map{
+    float: right;
+}
+
+
+.button{
+    
+    margin: auto;
+    width: 500px;
+}
+
+.buttonone{
+    float: left;
+}
+
+.buttontwo{
+    margin: auto;
+    float: right;
+    
+}
+
+footer{
+    margin-top: 100px;
+}
+
+.extra{
+    margin-top: 250px;
+}
+
+
+/* == Text ==*/ 
+
+
+body {
+    font-family: 'courier';
+    font-style: bold;
+}
+
+.insideheader{ 
+    color: white;
+    font-size: 20pt;
+}
+
+h3{
+    color: white;
+    font-size: 15pt;
+}
+
+p1{
+    font-size: 13pt;
+    line-height: 20pt;
+    
+}
+
+p2{
+    font-size: 14pt;
+     line-height: 35pt;
+}
+
+
+.button{
+    color: coral;
+}
+
+footer{
+    font-size: 9pt;
+    font-style: oblique;
+}
