@@ -37,6 +37,8 @@ img{
     }
     
     footer #legal{
+        font-size: 0.71rem;
+        font-style: italic;
         margin: auto;
         grid-row: 1/2;
         text-align: center;
