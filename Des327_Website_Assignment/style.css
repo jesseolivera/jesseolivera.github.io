@@ -1,0 +1,257 @@
+/* === Layout ===*/
+
+img{
+    max-width: 100%;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.food-delivery{
+    text-align: center;
+    width: 33.33%;
+    float: left;
+}
+
+.food-delivery a{
+    padding-right: 10px;
+    
+}
+
+.logobox{
+    text-align: center;
+    float: left;
+    width: 33.33%;
+}
+
+#logo{
+    height: 50%;
+    width: 50%;
+}
+
+.down{
+    text-align: center;
+    
+}
+
+
+.covid-hours{
+    text-align: center;
+    width: 33.33%;
+    float: right;
+}
+
+
+
+ul{
+    text-align: center;
+    list-style: none;
+}
+
+li{
+    display: inline;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.cover{
+    width: 100%;
+    height: 550px;
+    
+}
+
+.dinner-menus{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.left{
+    float: left;
+    text-align: center;
+    width: 47%;
+    
+}
+
+.right{
+   text-align: center;
+}
+
+
+.dinner-one{
+    text-align: center;
+    height: 696px;
+    width: 451px;
+}
+
+.dinner-two{
+    text-align: center;
+    height: 696px;
+    width: 451px;
+}
+
+.bkfs-menus{
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.bkfs-one {
+    text-align: center;
+    height: 700px;
+    width: 561px;
+}
+
+
+.bkfs-two {
+    text-align: center;
+    height: 700px;
+    width: 561px;
+}
+
+.label{
+    text-align: center;
+}
+
+.molelabel{
+    padding-top: 50px;
+    width: 289px;
+    height: 578px;
+}
+
+.molebanner{
+    width: 100%;
+    height: 720px;
+}
+
+
+.aboutusphoto{
+    width: 100%;
+    text-align: center;
+    height: 750px;
+}
+
+
+.articles{
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.LATimes{
+    float: left;
+    width: 35%;
+}
+
+.vouge{
+    padding-left: 20%;
+}
+.LA{
+    text-align: center;
+    height: 489px;
+    width: 306px;
+}
+
+.vouge{
+    text-align: center;
+    height: 489px;
+    width: 306px;
+}
+
+
+.button{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    height: 100px;
+    width: 100%;
+}
+
+/*=== Typography === */
+
+.menus{
+    padding: 20px;
+    text-align: center;
+    line-height: 20pt;
+    color: black;
+}
+
+.contact-info{
+    font-family: 'PT Sans', sans-serif;
+    line-height: 25pt;
+}
+
+body{
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 20pt;
+    color: white;
+}
+
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+
+.About-us-txt{
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-info{
+    padding: 30px;
+    text-align: center;
+}
+
+.mole_ad{
+
+    color: black;
+    text-align: center;
+    line-height: 35pt;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.logocircle{
+    
+    text-align: center;
+}
+
+/*=== Background ===*/
+
+#containertwo{
+    background-color: white;
+}
+
+header{
+    background-color: gray;
+}
+
+body{
+    background-color: black;
+}
+
+.menus{
+    background-color: #FFFBEB;
+}
+
+#Coming-Soon{
+    padding-top: 20px;
+    background-image: url(images/background.png);
+    background-size: cover;
+    
+}
+
+#About-us{
+    padding-top: 20px;
+    background-color: #2D2D2E;
+    padding-bottom: 50px;
+}
+
+#specialspage{
+    background-color: black;
+}
