@@ -1,0 +1,205 @@
+video{
+    max-width: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+@media screen and (max-width:600px){
+    
+    
+    /* --- Format --- */
+   
+    .topnav{
+        display: none;
+    }
+    
+
+    .double{
+         padding-bottom: 150px;
+        display: block;
+       
+    }
+    
+    .doubletop{
+        padding-top: 175px;
+    }
+    
+    .left{
+        margin: auto;
+        float: none;
+        width: 90%;
+        display: block;
+        padding-bottom: 10px;
+        
+    }
+    
+    .right{
+        width: 100%;
+        padding-top: 10px;
+    }
+    
+    .lefttop{
+        width: 100%;
+        
+    }
+    
+    .leftbottom{
+        width: 100%;
+        float: none;
+    }
+    
+    
+    
+    .text{
+        padding-top: 20pt;
+    }
+    
+    footer{
+        
+        display: block;
+
+    }
+    
+    .footerlow{
+        
+        display: block;
+        padding-top: 50px;
+
+    }
+    
+    .hardfoot{
+        padding-top: 60%;
+    }
+    
+    .single{
+        padding-top: 125px;
+    }
+    
+    .singleozi{
+        padding-top: 350px;
+    }
+    
+    .singlemole{
+        padding-top: 50px;
+    }
+    
+    .stack{
+        float: none;
+        padding-bottom: 50px;
+        padding-top: 25px;
+        margin: auto;
+        width: 95%;
+    }
+    
+.stackbottom{
+    padding-top: 25px;
+}
+    
+.doublenick{
+        padding-top: 50px;
+        margin: auto;
+    }
+    
+    .rightnick{
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+    
+    .leftnick{
+        width: 100%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    
+    
+    /* --- Fine Arts --- */
+    
+    .doublefine{
+        padding-bottom: 100px;
+        padding-top: 100px;
+        display: block;
+    }
+    
+    .leftfinetop{
+        width: 100%;
+    }
+    
+    .leftbottomfine{
+        margin: auto;
+        width: 75%;
+        padding-top: 25px;
+        
+    }
+    
+    .leftfine{
+        width:  100%;
+    }
+    
+    .rightfine{
+        width: 100%;
+    }
+    
+    .righttopfine{
+        width: 100%;
+    }
+    
+    .rightbottomfine{
+        margin: auto;
+        width: 75%;
+        padding-top: 25px;
+        
+    }
+    
+    .leftfinesmall{
+        width: 50%;
+        float: right;
+        margin: auto;
+    }
+    
+    .rightfinesmall{
+        width: 50%;
+        
+    }
+    
+    /* --- End Fine Arts --- */
+    
+    
+    
+    
+    
+    
+    /* --- Type ---*/
+    
+    body{
+        color: #F0F0F0;
+    }
+    
+    h1 {
+        font-size: 20pt;
+    }
+    
+    h3{
+        font-size: 12pt;
+    }
+    
+    .text{
+        font-size: 9pt;
+    }
+    
+    footer{
+        font-size: 10pt;
+    }
+    
+    
+}
+
+
+@media screen and (min-width:601px){
+    
+    .mobile-menu{
+        display: none;
+    }
+}

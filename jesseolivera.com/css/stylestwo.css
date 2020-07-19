@@ -1,0 +1,158 @@
+
+
+body{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+
+nav{
+    font-size: 12pt;
+    padding-top: 10px;
+    height: 30px;
+    background-color: #3F3F3F;
+}
+
+ul{
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+h1{
+    font-size: 25pt;
+}
+
+
+h3{
+    font-style: oblique;
+    font-size: 15pt;
+}
+
+.text{
+    margin: auto;
+    width: 70%;
+    font-size: 10pt;
+    line-height: 30pt;
+}
+
+
+.double{
+    margin: auto;
+    height: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.double a{
+    color: white;
+}
+
+
+
+.left{
+    width: 50%;
+    float: left;
+}
+
+.right{
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.left{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.singlevideo{
+    margin: auto;
+    height: 350px;
+    padding-top: 20px;
+}
+
+.single{
+    margin: auto;
+    height: 500px;
+    padding-top: 50px;
+}
+
+.stack{
+    width: 50%;
+    float: left;
+}
+
+.stacktop{
+    height: 40%;
+}
+
+.stackbottom{
+    height: 40%;
+}
+
+main{
+    padding-bottom: 20px;
+}
+
+footer{
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+.apps{
+    background-color: black;
+    text-align: center;
+}
+
+.apps ul{
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.apps li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.apps a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+#contactpage{
+    font-size: 10pt;
+    line-height: 30pt;
+    padding-top: 50px;
+}
+
+#contact a{
+    color: white;
+    font-size: 30pt;
+    padding: 20px;
+}
+
+.mobile-menu{
+    position: fixed;
+    top: 0.63rem;
+    right: 0.63rem;
+}
