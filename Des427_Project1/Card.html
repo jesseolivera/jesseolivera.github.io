@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+    <link rel="stylesheet" href="Card.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+
+ <h1> Hey everybody!</h1>
+     
+     
+     <p> <em> click here </em> </p>
+ 
+
+
+
+
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
+
+
+
+
+<script> 
+    
+let imageWave; 
+let imageSmile;
+let imageBackground;
+var totalClicks = 1;
+
+     
+     
+function preload(){
+        imageWave =loadImage('https://jesseolivera.github.io/images/Wave.png');
+        imageSmile = loadImage('https://jesseolivera.github.io/images/Smile.png');
+        imageBackground = loadImage('https://jesseolivera.github.io/images/Background.png')
+    }
+    
+
+ function setup() {
+  createCanvas(windowWidth, windowHeight);
+}
+    
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
+function draw(){
+
+}
+
+function mousePressed(){
+    
+    if (totalClicks>0 && totalClicks<2){
+    image(imageWave,420,75,400,400);       
+      
+  } else{
+    image(imageSmile,400,50,400,400);
+  }
+  totalClicks ++;
+   
+}
+     
+
+
+ 
+  </script>
+  
+ 
+
+ 
+
+ 
+  
+    
+</body>
+</html>
+
+

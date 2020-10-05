@@ -1,0 +1,65 @@
+
+
+h1, p{
+    font-family: 'Noto Sans SC', sans-serif;
+    margin: auto;
+    text-align: center;
+    
+}
+
+h1{
+    padding-top: 75px;
+    font-size: 50pt;
+    color: #fffee0;
+}
+
+
+
+
+#top, #bottom, #left, #right {
+	background: #68b3e8;
+	position: fixed;
+	}
+	
+
+#left, #right {
+		top: 0; 
+        bottom: 0;
+		width: 50px;
+    }
+#left { left: 0; }
+		
+#right { right: 0; }
+		
+#top, #bottom {
+		left: 0; 
+        right: 0;
+		height: 50px;
+    }
+#top { top: 0; }
+#bottom { bottom: 0; }
+
+
+
+@media only screen and (max-width: 600px) {
+  body{
+   
+    background-image: url('https://jesseolivera.github.io/images/Background.png');
+     background-repeat: no-repeat;
+    background-size: 120%;
+    background-color:  #92d0f7;
+}
+
+}
+
+
+@media only screen and (min-width: 600px) {
+  body{
+   
+    background-image: url('https://jesseolivera.github.io/images/Background.png');
+     background-repeat: no-repeat;
+    background-size: 98%;
+    background-color:  #92d0f7;
+}
+
+}
